@@ -135,3 +135,90 @@ def test_summary_totals_are_consistent():
     response = run_pipeline(bundle)
     assert response.summary.total_alerts == len(response.raw_alerts)
     assert response.summary.total_incidents == len(response.incidents)
+
+
+def test_ssh_brute_force_sequence_mode():
+    """Test SSH brute force detection via sequence of failures followed by success."""
+    from src.models.alert_models import AlertType, Severity
+    logs = [
+        SSHLog(ts=100.0, **{"id.orig_h": "192.168.1.50", "id.resp_h": "10.0.0.5", "id.resp_p": 22}, auth_attempts=1, auth_success=False),
+        SSHLog(ts=110.0, **{"id.orig_h": "192.168.1.50", "id.resp_h": "10.0.0.5", "id.resp_p": 22}, auth_attempts=1, auth_success=False),
+        SSHLog(ts=120.0, **{"id.orig_h": "192.168.1.50", "id.resp_h": "10.0.0.5", "id.resp_p": 22}, auth_attempts=1, auth_success=False),
+        SSHLog(ts=130.0, **{"id.orig_h": "192.168.1.50", "id.resp_h": "10.0.0.5", "id.resp_p": 22}, auth_attempts=1, auth_success=True),
+    ]
+    bundle = LogBundle(ssh_logs=logs)
+    response = run_pipeline(bundle)
+    ssh_alerts = [a for a in response.raw_alerts if a.alert_type == AlertType.SSH_BRUTE_FORCE]
+    assert len(ssh_alerts) == 1
+    assert ssh_alerts[0].evidence.get("mode") == "sequence"
+    assert ssh_alerts[0].severity == Severity.CRITICAL
+
+
+def test_multi_stage_attack_incident():
+    """Test correlation to MULTI_STAGE_ATTACK when an IP triggers 3+ alert types."""
+    from src.models.alert_models import IncidentType
+    base_ts = 1788086000.0
+    # 25 port scans
+    conn_logs = [
+        ConnLog(
+            ts=base_ts + i,
+            **{"id.orig_h": "10.0.0.99", "id.orig_p": 40000 + i,
+               "id.resp_h": "10.0.0.10", "id.resp_p": 1000 + i},
+            proto="tcp", duration=0.01, orig_bytes=40, resp_bytes=0, conn_state="REJ",
+        )
+        for i in range(25)
+    ]
+    # Beaconing
+    conn_logs.append(ConnLog(
+        ts=base_ts + 30.0,
+        **{"id.orig_h": "10.0.0.99", "id.orig_p": 55555,
+           "id.resp_h": "198.51.100.2", "id.resp_p": 4444},
+        proto="tcp", duration=120.0, orig_bytes=100, resp_bytes=500, conn_state="S1",
+    ))
+    # SSH brute force
+    ssh_logs = [
+        SSHLog(
+            ts=base_ts + 45.0,
+            **{"id.orig_h": "10.0.0.99", "id.resp_h": "10.0.0.10", "id.resp_p": 22},
+            auth_attempts=8, auth_success=True,
+        )
+    ]
+    bundle = LogBundle(conn_logs=conn_logs, ssh_logs=ssh_logs)
+    response = run_pipeline(bundle)
+    incident_types = {inc.incident_type for inc in response.incidents if inc.src_ip == "10.0.0.99"}
+    assert IncidentType.MULTI_STAGE_ATTACK in incident_types
+
+
+def test_correlate_empty_alerts():
+    from src.correlator.incident_correlator import correlate
+    assert correlate([]) == []
+
+
+def test_suspicious_tls_case_and_private_ip():
+    """Test TLS detector handles case-insensitive weak versions and skips short durations on private IPs."""
+    from src.models.alert_models import AlertType
+    ssl_logs = [
+        # Public IP with short duration + weak TLS in lowercase
+        SSLLog(
+            ts=100.0,
+            **{"id.orig_h": "10.0.0.1", "id.resp_h": "93.184.216.34", "id.resp_p": 443},
+            version="tlsv1.0",
+            duration=1.2,
+            validation_status="ok",
+        ),
+        # Private IP with short duration and normal TLS -> should not trigger
+        SSLLog(
+            ts=200.0,
+            **{"id.orig_h": "10.0.0.1", "id.resp_h": "192.168.1.200", "id.resp_p": 443},
+            version="TLSv1.3",
+            duration=1.0,
+            validation_status="ok",
+        ),
+    ]
+    bundle = LogBundle(ssl_logs=ssl_logs)
+    response = run_pipeline(bundle)
+    assert len(response.raw_alerts) == 1
+    assert response.raw_alerts[0].alert_type == AlertType.SUSPICIOUS_TLS
+    assert response.raw_alerts[0].dst_ip == "93.184.216.34"
+
+

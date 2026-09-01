@@ -12,7 +12,7 @@ def _bump(s: Severity) -> Severity:
 
 
 def _max_sev(sevs: list[Severity]) -> Severity:
-    return max(sevs, key=lambda s: _SEV.index(s))
+    return max(sevs, key=lambda s: _SEV.index(s), default=Severity.LOW)
 
 
 def correlate(alerts: list[Alert]) -> list[Incident]:
@@ -39,21 +39,21 @@ def correlate(alerts: list[Alert]) -> list[Incident]:
             types: set[AlertType] = {a.alert_type for a in cluster}
             max_s = _max_sev([a.severity for a in cluster])
 
-            if AlertType.PORT_SCAN in types and AlertType.SSH_BRUTE_FORCE in types:
-                itype = IncidentType.RECON_AND_INTRUSION
-                max_s = _bump(max_s)
-                title = f"Recon & Intrusion from {src_ip}"
-                summary = (
-                    f"Attacker {src_ip} performed port scan then SSH brute-force "
-                    f"({len(cluster)} alerts: {', '.join(sorted(t.value for t in types))})."
-                )
-            elif len(types) >= 3:
+            if len(types) >= 3:
                 itype = IncidentType.MULTI_STAGE_ATTACK
                 max_s = _bump(max_s)
                 title = f"Multi-Stage Attack from {src_ip}"
                 summary = (
                     f"Attacker {src_ip} used {len(types)} techniques "
                     f"({', '.join(sorted(t.value for t in types))}) across {len(cluster)} alerts."
+                )
+            elif AlertType.PORT_SCAN in types and AlertType.SSH_BRUTE_FORCE in types:
+                itype = IncidentType.RECON_AND_INTRUSION
+                max_s = _bump(max_s)
+                title = f"Recon & Intrusion from {src_ip}"
+                summary = (
+                    f"Attacker {src_ip} performed port scan then SSH brute-force "
+                    f"({len(cluster)} alerts: {', '.join(sorted(t.value for t in types))})."
                 )
             else:
                 itype = IncidentType.SINGLE_THREAT

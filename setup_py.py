@@ -4,7 +4,7 @@ Run this once to scaffold the entire Threat Pipeline project.
 """
 import os, textwrap
 
-ROOT = r"C:\Users\janme\OneDrive\Desktop\everything\Threat_pipeline"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 
 FILES = {}
 

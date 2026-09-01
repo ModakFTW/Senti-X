@@ -5,9 +5,9 @@ from ..models.log_models import SSLLog
 from ..models.alert_models import Alert, AlertType, Severity
 
 WEAK_VERSIONS: frozenset[str] = frozenset({
-    "SSLv2", "SSLv3", "SSLv23",
-    "TLSv10", "TLSv1", "TLSv1.0",
-    "TLSv11", "TLSv1.1",
+    "sslv2", "sslv3", "sslv23",
+    "tlsv10", "tlsv1", "tlsv1.0",
+    "tlsv11", "tlsv1.1",
 })
 SHORT_DURATION: float = 5.0
 
@@ -23,9 +23,9 @@ def detect(ssl_logs: list[SSLLog]) -> list[Alert]:
     alerts: list[Alert] = []
     for log in ssl_logs:
         triggers: list[str] = []
-        if log.validation_status and log.validation_status.lower() not in ("ok", "valid"):
+        if log.validation_status and log.validation_status.strip().lower() not in ("ok", "valid"):
             triggers.append("invalid_cert")
-        if log.version and log.version in WEAK_VERSIONS:
+        if log.version and log.version.strip().lower() in WEAK_VERSIONS:
             triggers.append("weak_tls_version")
         if (log.duration is not None
                 and log.duration < SHORT_DURATION

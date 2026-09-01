@@ -3,12 +3,45 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.env
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
 venv/
 env/
+ENV/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env
 
 # SENTINEL-X Data & DB
-# We do not push data; the integrating AI or users should run the generation scripts.
+# Real logs and local generated artifacts
+data/*.json
+data/*.log
+data/*.ndjson
 data/raw/*.json
 data/clean/*.jsonl
 db/*.db
@@ -16,9 +49,5 @@ db/*.sqlite
 *.db
 *.sqlite3
 
-# Eval Reports (optional, but usually good to ignore local runs)
-eval_report.json
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Eval Reports (local runs)
+# eval_report.json

@@ -1,0 +1,18 @@
+{
+  "incident_id": "INC-DEMO-001",
+  "title": "SSH Brute Force Attack & Unauthorized Access",
+  "description": "Attacker at 185.220.101.45 performed 8 SSH login attempts against 192.168.10.5 on port 22 and succeeded on the 8th attempt.",
+  "tactics": [
+    "Initial Access",
+    "Credential Access"
+  ],
+  "techniques": [
+    "T1110",
+    "T1078"
+  ],
+  "indicators": {
+    "src_ip": "185.220.101.45",
+    "target_ip": "192.168.10.5",
+    "port": 22
+  }
+}

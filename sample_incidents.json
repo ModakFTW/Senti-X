@@ -1,0 +1,207 @@
+[
+  {
+    "incident_id": "31009e04-a209-4379-856e-f57f15855369",
+    "src_ip": "10.0.0.66",
+    "targets": [
+      "10.0.0.10"
+    ],
+    "event_types": [
+      "port_scan",
+      "ssh_brute_force"
+    ],
+    "first_seen": 1788086000.0,
+    "last_seen": 1788086100.0,
+    "risk_score": 73.1,
+    "risk_level": "high",
+    "attack_pattern": "Reconnaissance -> Brute Force (attacker gained access)",
+    "events": [
+      {
+        "timestamp": 1788086000.0,
+        "src_ip": "10.0.0.66",
+        "dst_ip": "10.0.0.10",
+        "event_type": "port_scan",
+        "severity": 0.8,
+        "evidence": {
+          "distinct_ports_hit": 15,
+          "distinct_hosts_hit": 1,
+          "window_sec": 60,
+          "scan_like_conn_ratio": 1.0,
+          "sample_ports": [
+            133,
+            360,
+            804,
+            3589,
+            3771,
+            4498,
+            4690,
+            4838,
+            4848,
+            5773,
+            6485,
+            8139,
+            9273,
+            9936,
+            9947
+          ]
+        },
+        "detector": "port_scan",
+        "dst_port": null,
+        "event_id": "43423967-9b39-4b42-8b99-b6d570c3cbd8"
+      },
+      {
+        "timestamp": 1788086100.0,
+        "src_ip": "10.0.0.66",
+        "dst_ip": "10.0.0.10",
+        "event_type": "ssh_brute_force",
+        "severity": 0.95,
+        "evidence": {
+          "failed_attempts": 5,
+          "window_sec": 120,
+          "first_attempt_ts": 1788086100.0,
+          "last_attempt_ts": 1788086104.8,
+          "followed_by_successful_login": true
+        },
+        "detector": "ssh_brute_force",
+        "dst_port": 22,
+        "event_id": "aaaefc48-32d0-4dcd-a186-fb9cf469bc2c"
+      }
+    ]
+  },
+  {
+    "incident_id": "3ce666cd-d914-4cd0-8bf4-4c5b706bb2ac",
+    "src_ip": "10.0.0.77",
+    "targets": [
+      "185.220.101.7"
+    ],
+    "event_types": [
+      "suspicious_tls",
+      "suspicious_tls",
+      "suspicious_tls"
+    ],
+    "first_seen": 1788086500.0,
+    "last_seen": 1788086560.0,
+    "risk_score": 44.6,
+    "risk_level": "medium",
+    "attack_pattern": "Suspicious Encrypted Session",
+    "events": [
+      {
+        "timestamp": 1788086500.0,
+        "src_ip": "10.0.0.77",
+        "dst_ip": "185.220.101.7",
+        "event_type": "suspicious_tls",
+        "severity": 0.85,
+        "evidence": {
+          "reasons": [
+            "outdated/weak TLS version (TLSv1.0)",
+            "self-signed certificate",
+            "missing SNI (possible non-browser/automated client)",
+            "unusually short session duration"
+          ],
+          "version": "TLSv1.0",
+          "cipher": "TLS_RSA_WITH_RC4_128_SHA",
+          "ja3": "e7d705a3286e19ea42f587b344ee6865",
+          "validation_status": "self signed certificate"
+        },
+        "detector": "suspicious_tls",
+        "dst_port": 443,
+        "event_id": "d151dcf2-629d-485c-9f55-38f191b40f3d"
+      },
+      {
+        "timestamp": 1788086530.0,
+        "src_ip": "10.0.0.77",
+        "dst_ip": "185.220.101.7",
+        "event_type": "suspicious_tls",
+        "severity": 0.85,
+        "evidence": {
+          "reasons": [
+            "outdated/weak TLS version (TLSv1.0)",
+            "self-signed certificate",
+            "missing SNI (possible non-browser/automated client)",
+            "unusually short session duration"
+          ],
+          "version": "TLSv1.0",
+          "cipher": "TLS_RSA_WITH_RC4_128_SHA",
+          "ja3": "e7d705a3286e19ea42f587b344ee6865",
+          "validation_status": "self signed certificate"
+        },
+        "detector": "suspicious_tls",
+        "dst_port": 443,
+        "event_id": "f660bd2f-ff9f-467f-adc6-47732555dc33"
+      },
+      {
+        "timestamp": 1788086560.0,
+        "src_ip": "10.0.0.77",
+        "dst_ip": "185.220.101.7",
+        "event_type": "suspicious_tls",
+        "severity": 0.85,
+        "evidence": {
+          "reasons": [
+            "outdated/weak TLS version (TLSv1.0)",
+            "self-signed certificate",
+            "missing SNI (possible non-browser/automated client)",
+            "unusually short session duration"
+          ],
+          "version": "TLSv1.0",
+          "cipher": "TLS_RSA_WITH_RC4_128_SHA",
+          "ja3": "e7d705a3286e19ea42f587b344ee6865",
+          "validation_status": "self signed certificate"
+        },
+        "detector": "suspicious_tls",
+        "dst_port": 443,
+        "event_id": "dd7df25d-c738-4475-8d43-5b476b3d5a89"
+      }
+    ]
+  },
+  {
+    "incident_id": "029890f7-eedc-489e-ae44-f190797592ee",
+    "src_ip": "10.0.0.88",
+    "targets": [
+      "203.0.113.55"
+    ],
+    "event_types": [
+      "suspicious_port",
+      "tcp_beaconing_pattern"
+    ],
+    "first_seen": 1788086800.0,
+    "last_seen": 1788086800.0,
+    "risk_score": 22.4,
+    "risk_level": "low",
+    "attack_pattern": "Suspicious Port Activity -> Possible C2 Beaconing",
+    "events": [
+      {
+        "timestamp": 1788086800.0,
+        "src_ip": "10.0.0.88",
+        "dst_ip": "203.0.113.55",
+        "event_type": "suspicious_port",
+        "severity": 0.6,
+        "evidence": {
+          "port": 4444,
+          "reason": "Metasploit default handler",
+          "duration": 118.675,
+          "orig_bytes": 2893,
+          "resp_bytes": 944,
+          "conn_state": "S1"
+        },
+        "detector": "suspicious_port",
+        "dst_port": 4444,
+        "event_id": "34a36a9b-0fab-48e1-a569-7c0edf0a7a87"
+      },
+      {
+        "timestamp": 1788086800.0,
+        "src_ip": "10.0.0.88",
+        "dst_ip": "203.0.113.55",
+        "event_type": "tcp_beaconing_pattern",
+        "severity": 0.55,
+        "evidence": {
+          "duration": 118.675,
+          "total_bytes": 3837,
+          "conn_state": "S1",
+          "service": "-"
+        },
+        "detector": "tcp_anomaly",
+        "dst_port": 4444,
+        "event_id": "c5357a03-c035-42d1-8533-9a1ce92781cc"
+      }
+    ]
+  }
+]

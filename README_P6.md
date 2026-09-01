@@ -194,7 +194,22 @@ Incident
 
 ---
 
-## Interface Contract (for other team members)
+## Interface Contract (for other team members & Integrating AI)
+
+### API Gateway (FastAPI)
+For the integrating Agentic AI, the easiest way to interact with the P6 layer is via the REST API Gateway.
+
+```bash
+uvicorn api.main:app --host 0.0.0.0 --port 8000
+```
+
+**Available Endpoints:**
+- `GET /` — Health check and database stats
+- `GET /api/v1/incidents` — List all incidents written to the DB
+- `POST /api/v1/rag/{incident_id}` — Trigger the RAG explanation pipeline
+  - Body: `{"incident_summary": "Description of the attack"}`
+  - Returns: LLM explanation, cited UIDs, cited MITRE techniques
+- `GET /api/v1/eval` — Run the full evaluation suite and get the JSON scorecard
 
 ### Incident Schema (defined by P6)
 ```json

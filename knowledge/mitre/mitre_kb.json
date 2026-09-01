@@ -1,0 +1,160 @@
+{
+  "techniques": [
+    {
+      "technique_id": "T1046",
+      "name": "Network Service Scanning",
+      "tactic": "Discovery",
+      "description": "Adversaries may attempt to get a listing of services running on remote hosts and local network infrastructure devices, including those may be vulnerable to remote exploitation through services. Common methods include using native OS utilities, port scanners (nmap, masscan), and custom scripts to probe TCP/UDP ports and identify open services. Results help the adversary plan subsequent attacks.",
+      "detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior. Look for: large number of connection attempts to multiple ports from a single source IP; SYN packets without completing handshake (SYN scans); connection state REJ/S0/RSTOS0 across many destination ports in short time window; Zeek notice Scan::Port_Scan or Scan::Address_Scan.",
+      "detection_signals": [
+        "High volume of failed TCP connections (conn_state REJ or S0) from single source",
+        "Connections to many distinct dst_port values within short time window",
+        "Zeek notice type Scan::Port_Scan",
+        "Source IP is external / not in trusted range"
+      ],
+      "mitigations": [
+        {"id": "M1030", "name": "Network Segmentation", "description": "Segment networks to limit exposure of internal services to untrusted hosts."},
+        {"id": "M1031", "name": "Network Intrusion Prevention", "description": "Use network IPS/IDS to detect and block scan activity."},
+        {"id": "M1035", "name": "Limit Access to Resource Over Network", "description": "Restrict access to services to only required hosts using firewall rules."}
+      ],
+      "data_sources": ["Network Traffic: Network Traffic Flow", "Network Traffic: Network Connection Creation"],
+      "related_techniques": ["T1595", "T1590"],
+      "zeek_log_types": ["conn", "notice"],
+      "example_query": "SELECT src_ip, COUNT(DISTINCT dst_port) as ports_scanned FROM events WHERE log_type='conn' AND conn_state IN ('REJ','S0','RSTOS0') GROUP BY src_ip HAVING ports_scanned > 10"
+    },
+    {
+      "technique_id": "T1110",
+      "name": "Brute Force",
+      "tactic": "Credential Access",
+      "description": "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Common targets include SSH, RDP, SMB, web application login pages, and APIs. Tools include Hydra, Medusa, Ncrack, and custom scripts.",
+      "detection": "Monitor authentication logs for large numbers of failed authentication attempts. In Zeek, look for: repeated SSH connections from single source with auth_success=false; Zeek notice SSH::Password_Guessing; high volume of conn records to port 22/3389/445 with short duration; sudden successful auth after many failures from same source IP.",
+      "detection_signals": [
+        "Multiple SSH connections from same src_ip with auth_success=false",
+        "Zeek notice type SSH::Password_Guessing",
+        "Rate of auth failures > 10 per minute from single source",
+        "Successful login (auth_success=true) immediately following failed attempts from same IP"
+      ],
+      "mitigations": [
+        {"id": "M1036", "name": "Account Use Policies", "description": "Set account lockout policies after a small number of failed login attempts."},
+        {"id": "M1032", "name": "Multi-factor Authentication", "description": "Use MFA for all remote access services."},
+        {"id": "M1027", "name": "Password Policies", "description": "Enforce strong password policies across all accounts."},
+        {"id": "M1018", "name": "User Account Management", "description": "Disable or remove unused accounts that may be targeted."}
+      ],
+      "data_sources": ["User Account: User Account Authentication", "Application Log: Application Log Content"],
+      "related_techniques": ["T1078", "T1133"],
+      "zeek_log_types": ["ssh", "conn", "notice"],
+      "example_query": "SELECT src_ip, COUNT(*) as attempts FROM events WHERE log_type='ssh' AND label='attack' GROUP BY src_ip ORDER BY attempts DESC"
+    },
+    {
+      "technique_id": "T1078",
+      "name": "Valid Accounts",
+      "tactic": "Defense Evasion / Persistence / Privilege Escalation / Initial Access",
+      "description": "Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services. After successful brute force or credential theft, the adversary uses the legitimate credentials to log in, making detection harder as traffic appears normal.",
+      "detection": "Monitor for successful authentication events that follow patterns of failed authentication. In Zeek: SSH record with auth_success=true from an IP that recently had many auth_success=false records; login outside normal business hours; long session duration after initial login; large data transfer during the session.",
+      "detection_signals": [
+        "auth_success=true from IP with prior brute force activity",
+        "SSH session with unusually high bytes_orig (commands executed, data staged)",
+        "Login from external/unexpected IP address",
+        "Session duration >> normal baseline"
+      ],
+      "mitigations": [
+        {"id": "M1032", "name": "Multi-factor Authentication", "description": "MFA prevents use of stolen passwords alone."},
+        {"id": "M1026", "name": "Privileged Account Management", "description": "Limit the number of accounts with administrative access."},
+        {"id": "M1017", "name": "User Training", "description": "Train users to recognize phishing and social engineering."}
+      ],
+      "data_sources": ["User Account: User Account Authentication", "Logon Session: Logon Session Creation"],
+      "related_techniques": ["T1110", "T1133", "T1021"],
+      "zeek_log_types": ["ssh"],
+      "example_query": "SELECT uid, src_ip, dst_ip, duration_sec, bytes_total FROM events WHERE log_type='ssh' AND label='attack'"
+    },
+    {
+      "technique_id": "T1071.004",
+      "name": "Application Layer Protocol: DNS",
+      "tactic": "Command & Control",
+      "description": "Adversaries may communicate using the Domain Name System (DNS) application layer protocol to avoid detection and network filtering. DNS traffic is often allowed through network defenses. Malware can use DNS for C2 communication by encoding commands and data in DNS queries and responses, or by using fast-flux techniques. Periodic DNS queries to a C2 domain (beaconing) at regular intervals are a common pattern. DGA (Domain Generation Algorithms) may also be used to generate new domains automatically.",
+      "detection": "Analyze DNS queries for: high query frequency to a single external domain not in Alexa top-1M; DNS queries with short TTL responses (common in C2); unusual query types (TXT, NULL) used for data exfiltration via DNS; consistent inter-query timing suggesting automated beaconing; DNS queries from servers that should not be making external DNS requests.",
+      "detection_signals": [
+        "Repeated DNS queries to same unusual domain from internal host",
+        "Query interval regularity (± small jitter) suggesting beaconing",
+        "Domain not in known-good allowlist / low Alexa ranking",
+        "Internal server (not workstation) making DNS queries to external resolver",
+        "Low TTL values in response (60s is suspicious)"
+      ],
+      "mitigations": [
+        {"id": "M1031", "name": "Network Intrusion Prevention", "description": "Use DNS sinkholes and RPZ (Response Policy Zones) to block known C2 domains."},
+        {"id": "M1021", "name": "Restrict Web-Based Content", "description": "Use DNS filtering to block known malicious domains."},
+        {"id": "M1037", "name": "Filter Network Traffic", "description": "Block outbound DNS to external resolvers from servers; force through monitored internal resolver only."}
+      ],
+      "data_sources": ["Network Traffic: Network Traffic Content", "Network Traffic: Network Traffic Flow"],
+      "related_techniques": ["T1071", "T1048", "T1090"],
+      "zeek_log_types": ["dns", "conn"],
+      "example_query": "SELECT query, COUNT(*) as cnt, MIN(ts_iso) as first_seen, MAX(ts_iso) as last_seen FROM events WHERE log_type='dns' GROUP BY query HAVING cnt > 10 ORDER BY cnt DESC"
+    },
+    {
+      "technique_id": "T1021.001",
+      "name": "Remote Services: Remote Desktop Protocol",
+      "tactic": "Lateral Movement",
+      "description": "Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP). The adversary may then perform actions as the logged-on user. RDP is a common management protocol built into Windows and may require enabling to use. During lateral movement, the attacker pivots from an initially compromised host to other internal machines using RDP with valid or stolen credentials.",
+      "detection": "Look for: RDP connections (TCP/3389) originating from internal hosts that do not normally use RDP; connections between workstations (workstation-to-workstation RDP is unusual); large data volumes over RDP sessions; multiple RDP sessions opened in quick succession from one source.",
+      "detection_signals": [
+        "TCP dst_port=3389 from internal server (not admin workstation)",
+        "Workstation-to-workstation RDP (10.x.x.x → 10.x.x.x on port 3389)",
+        "RDP session with high bytes_total",
+        "Multiple RDP sessions from compromised host within short timeframe"
+      ],
+      "mitigations": [
+        {"id": "M1035", "name": "Limit Access to Resource Over Network", "description": "Restrict RDP access using host-based firewalls and network ACLs. Only allow RDP from authorized admin hosts."},
+        {"id": "M1032", "name": "Multi-factor Authentication", "description": "Require MFA for RDP sessions."},
+        {"id": "M1047", "name": "Audit", "description": "Regularly audit RDP logs and active sessions."}
+      ],
+      "data_sources": ["Network Traffic: Network Connection Creation", "Process: Process Creation", "Logon Session: Logon Session Creation"],
+      "related_techniques": ["T1078", "T1550"],
+      "zeek_log_types": ["conn"],
+      "example_query": "SELECT src_ip, dst_ip, COUNT(*) as sessions, SUM(bytes_total) as total_bytes FROM events WHERE log_type='conn' AND dst_port=3389 AND is_internal_src=1 GROUP BY src_ip, dst_ip"
+    },
+    {
+      "technique_id": "T1048",
+      "name": "Exfiltration Over Alternative Protocol",
+      "tactic": "Exfiltration",
+      "description": "Adversaries may steal data by exfiltrating it over a different protocol than that of the existing command and control channel. The data may also be sent to an alternate network location from the main command and control server. Alternate protocols include FTP, SMTP, HTTP/S (with large POST bodies), DNS, and custom protocols. Large data volumes sent to external IPs are the primary indicator.",
+      "detection": "Monitor for: outbound connections with unusually high orig_bytes (request body > 1MB); POST requests to non-CDN external IPs; data transfer volumes significantly above user/host baseline; multiple large transfers in short time to same destination; transfer to IP geolocation known for hosting abuse (Tor exit, bulletproof hosting).",
+      "detection_signals": [
+        "HTTP POST with request_body_len > 1,000,000 bytes",
+        "Destination IP matches known C2 or threat intelligence feed",
+        "Total outbound bytes to single external host >> baseline",
+        "Transfer to same IP as DNS C2 beaconing target",
+        "Multiple large POSTs within short window to same destination"
+      ],
+      "mitigations": [
+        {"id": "M1057", "name": "Data Loss Prevention", "description": "Implement DLP solutions to detect and block large data transfers."},
+        {"id": "M1037", "name": "Filter Network Traffic", "description": "Block outbound traffic to known malicious IPs. Apply egress filtering."},
+        {"id": "M1030", "name": "Network Segmentation", "description": "Isolate sensitive data repositories from internet-facing systems."}
+      ],
+      "data_sources": ["Network Traffic: Network Traffic Content", "Network Traffic: Network Traffic Flow", "File: File Access"],
+      "related_techniques": ["T1041", "T1071", "T1030"],
+      "zeek_log_types": ["http", "conn"],
+      "example_query": "SELECT src_ip, dst_ip, host, SUM(bytes_orig) as total_upload FROM events WHERE log_type='http' AND is_internal_src=1 AND is_internal_dst=0 GROUP BY src_ip, dst_ip, host HAVING total_upload > 1000000 ORDER BY total_upload DESC"
+    },
+    {
+      "technique_id": "T1486",
+      "name": "Data Encrypted for Impact",
+      "tactic": "Impact",
+      "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This is commonly seen in ransomware attacks following initial access and lateral movement.",
+      "detection": "Look for: rapid file system changes affecting many files in short time; known ransomware file extensions; shadow copy deletion commands; process creating encrypted files in bulk; unusual CPU spike from encryption process.",
+      "detection_signals": [
+        "Mass file modification events in short time window",
+        "Processes writing files with encrypted extensions (.locked, .enc, etc.)",
+        "vssadmin or wmic shadow copy deletion",
+        "Network shares being encrypted remotely"
+      ],
+      "mitigations": [
+        {"id": "M1053", "name": "Data Backup", "description": "Take regular backups of critical systems and data offline."},
+        {"id": "M1040", "name": "Behavior Prevention on Endpoint", "description": "Use endpoint solutions to detect and block ransomware behavior patterns."}
+      ],
+      "data_sources": ["File: File Modification", "Process: Process Creation", "Command: Command Execution"],
+      "related_techniques": ["T1490", "T1489"],
+      "zeek_log_types": ["conn", "http"],
+      "example_query": "SELECT * FROM incidents WHERE technique_ids LIKE '%T1486%'"
+    }
+  ]
+}

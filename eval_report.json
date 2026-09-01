@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-09-01T05:00:08.230942+00:00",
+  "scenario": "full",
+  "overall_score": 0.15000000000000002,
+  "detection": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "false_positive_rate": 0.0,
+    "roc_auc": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "total_events": 799,
+    "flagged_events": 0,
+    "actual_attack_events": 799
+  },
+  "correlation": {
+    "incident_grouping_accuracy": 0.0,
+    "attack_chain_accuracy": 0.0,
+    "adjusted_rand_index": 0.0,
+    "incidents_generated": 0,
+    "incidents_expected": 6,
+    "events_correctly_grouped": 0,
+    "events_total_attack": 799
+  },
+  "system": {
+    "events_processed": 10299,
+    "suspicious_events": 799,
+    "correlated_events": 87,
+    "incidents_generated": 0,
+    "priority_incidents": 0,
+    "processing_time_ms": 0.0,
+    "events_per_second": 0.0,
+    "alert_compression_ratio": 0.0,
+    "priority_compression_ratio": 0.0,
+    "funnel_stages": [
+      {
+        "stage": "Raw Events",
+        "count": 10299,
+        "reduction_factor": 1.0
+      },
+      {
+        "stage": "Suspicious Events",
+        "count": 799,
+        "reduction_factor": 12.89
+      },
+      {
+        "stage": "Correlated Events",
+        "count": 87,
+        "reduction_factor": 118.38
+      },
+      {
+        "stage": "Incidents",
+        "count": 0,
+        "reduction_factor": 0.0
+      },
+      {
+        "stage": "Priority Incidents",
+        "count": 0,
+        "reduction_factor": 0.0
+      }
+    ]
+  },
+  "rag": {
+    "evidence_faithfulness": 1.0,
+    "mitre_relevance": 1.0,
+    "citation_coverage": 0.0,
+    "incidents_in_db": 0,
+    "incidents_processed": 0,
+    "ground_truth_incidents": 6,
+    "rag_pipeline_ran": false
+  }
+}

@@ -1,0 +1,800 @@
+uid,log_type,is_malicious,tactic,technique_id,technique_name,incident_id,priority
+CF2nieX6SE0Ehu4o,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYbmId0RU2icouPf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMVKIBAPKgfxL0R0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYF0i4remeQi35Hz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyzfjC7nTJpB2vfB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcagC0XPMHjoafLW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9Nmhus8Zqajc2oh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0gyHqVNhMCayT3w,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZji5429Irvzl7zP,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5U3lofsIjKYjNa0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAnCkupPaqSF3ut0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVIpAq1QAiFusU4M,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDkIRNBlYah0Elud,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CCSAmwELnm2SUHZu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyS605FkChO1dlRX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C04UjQSxCP0cd4c6,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C2gQ0s3u6gyTjcFy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CroGgrTgDOVll9O3,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COEEdWoQ8XVkU1EW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPdOrpWmvWCm9OZM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CN3ETlVOXCQP6fvk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CsQYjUsZ8QhUCNFq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C34l8SCxLLDjfXTq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWk7rLAVTJ6ShE51,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CltgGtvWLwmVXMgt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cp0Oi5aK2SJ4aVSO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDHhc8z9UEcrDgAe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CfS6XPkBM98azWDC,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyYD7mKVpcs2eaQ4,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9kCjG8rwRUeNCdn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFDvEitAjfElpj9z,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPof8MASfpubEoMZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CI9GXVfJO6kfqkzz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CvFEbAfNM4lNLlNF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CIf6yGsRlFNpjvJo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CfxTZp3vMwIvgXCH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMQNihYQWtwE5Qt1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMBWlkigXC8Zv4XK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZ5O15ZaDenprFR1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CjUe1i59hpMDQgOW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAHechF8a6x6EGLn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFEhpA0sajpo81AO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cv83X6n7SMqNwJaF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgJxjEWd1ILWaFNg,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWAEluiOLA1Qane2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeeK8lZJuranCAR5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ctbtlq0LvfvdDrHG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3G7vl25P6G6cQ6J,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeKXDFC6VrPbZDZj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQL98hlhQc7022hb,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNl0vdkGTtdFLmyG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CEe2lcfuLNIVrA3g,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8CSbZhZoQ2Sqx0A,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CIxBDTXBialSsIQJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+ClV6QPDGPx4p8upF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CURG0qiRjjOOSSKg,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cv1tcAh2lr3t5feM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3BrIDQxDhnvGLkU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cd84Aa264ni7vKEx,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CvPgZ100flyOaz0t,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CCJP6kidzu76eIYQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cg5K8Zu6Shr5ThKf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ca4HD5pXg3ZZiWlE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmdsD6PMZqF5MY6d,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSocSsti817E2zVl,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFTAKdNkgGMU3D1k,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNwwwYtAcJbC1dgK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CaseO9aCf30E4zR3,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+ClkIFRrrF6Bz6Ee1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFUp8mvlY8Uvbclj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CRXjQNDlAeGJBE3h,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYZetzqVLdCvaw21,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CfAD1wpa6BnRGpDQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cb12Rsk6fEs5dnH5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7cjZ41OiA3lSG8h,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CynWEJZ84ig90f1l,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cfbgip4Djmnnhc4p,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMMKBKU19tsAiwXL,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9xMeSdgqIueTZ1o,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWv4FMkpVq21lLjo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CiJBMw6USed2cRfq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGgIy2NE8qDo6V8P,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CF0d6lkWgpfrS4DI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeLIuF7gPGXwrl0x,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CI4tNr7P2anNOtCc,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cf4UP26l6ms21SE7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ccx9h5YOaQxuTpBi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7tjHn2QChlMrGEF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1GVFoFnRWNyJEFY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAP1Jncr3ts7Sl4C,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7yCiKbofQrqBsjy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrJJYDXok0oAi08C,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CIQCIgG8NFlei3JJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7yoswgqwNtCqaIR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C084mR5N1sHeQpZ9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLSdhTiXir62i9iu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CxgBExr5o5U7d512,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQcb6FVoFNS17IKk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cce8mq4aMCabDt0Q,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ca0sTDgIUoJmULLZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwXpFZOlBYzmuDp3,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVXS1Cftlssjw9Pj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwUuuNXuXIbana2b,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnUguZgaCOfF4MWH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CUvEKjlldggpjSPD,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C00tse3Uo4EUdBgQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQUFerc5AXEljsqS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcStzDWHpcCsxtJi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C58Wh3ESJv77lo6o,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6n92VLXpg4Bdnb8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C37AoQ09YOdRvHec,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4UUz4OwAlp5uEKZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CEENY15JRkSIhwGJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4YXUjRlc6qCZp73,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVGGG78bxcmke6i7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CxzNso8eceUYuBzn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CKjXSf1YvYAbeNdV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHZmhYQRtngRSmjw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CS6tdYkh2bYqJ0Fk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFRvtaHDbLsl05Sg,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CICsZyPxoKIPDeYb,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnH1Kt7zEz4EGTS0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7dVZRLpzWXdZqKB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CC7JEKc8kX3j0KOK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQcBxt6MjgGSWqPT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COvfJkU8v1ErZi6w,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPYdy0DtHtzGbInm,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZJnbb7j214930q0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZrkFzFds7fKzuIz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSq3eWAl09XKiuqI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ct4kfoG5g1Gqwgw7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTQyFuRoBQpXpwgv,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZYv0JkBfd1vKk5u,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CERBIsAQNMnHsGgr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cz65tGYKWZ205T6y,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXInB8v93472C9y7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cb3QYhDg0gPshhxU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CKEDwQRsWkr3kRgf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXWYARfphIsl7FUS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CU4xTWi9QFXlphSc,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyLtlhBMs2ZgO3DF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWARHPsSIqgCd578,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cp4N3cYiKKrHLxUR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CqB6OIgc6rStWt9s,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CK8R1kWOhaDvzEGz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cu8CSoEipdm1LKtd,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7hmMPY994ymGyh4,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CykM4Ak1jQmMU0QX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cc8bRsoCMRPcAxAg,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CpNRlwS1eWoWIT81,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CkILlTfU2fso3yQW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwtGZosgbcy9HWYe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CaplRyuQOkuEzb1A,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CUjaIW3ZMQBvWdyh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcFwICCCpfAmjGbB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYDIlygrAvuNOGcx,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cix8Xb1LZkd2IbSI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9Qpc8cfHxcYFxAX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C74LfnTBIueYUd9n,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C2b5YRPD9ZEjeet9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CqFnezphZprbVRgx,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4mmMc7EiMgoH58R,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSqQeaE7nu5NJKPa,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cc5ZsWTrmCeXh7WZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0VXJ25gtDigy7M1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWSxT4BMFytRKBRZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeIQRnoh448iRjsm,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHjRZjdOevOfje28,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CxLGC9hKeazIzu56,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CtihpNwHpOqvwR1x,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COvYHuycgfErleRm,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQqEgwESUwoSlsxE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CvSn2wckEJa2Xxfn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CK7QggqqRcWIKdC8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Covv1qxpsGctabAO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNdQxhoR9mCpKm7u,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Coz7sNWGvDQSE4eH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTE6mClyr2wMWx2P,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9Fy0BKirEZUBq5k,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CA1EkxWNCqIEmv3x,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnpftYUZVyT9zkoO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5i6DGzGs9RbZ1qj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrGBOiR8WOliGvmR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWXHomez5qBfSkK4,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cs4je5BAvFpcLutW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CfgNQCepvIexzHFw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CCjijenF4wwyzJYa,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNKMXWQzExrcFXNA,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C093yjfvZvUnAc8L,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBkDTkfjmuUmqUUi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSfOLhQAExgGKFdu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPzzU928Z08w7imN,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cl04ESwJbCU935Kz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cda2COpvIxyN6t6u,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CaNDW0dw7UR2DzAe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CuezH5O4Ik0Af95S,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ctx65RPDhtpdhPXt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSf0MTGkxV0ehJGZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CuB9ZwNzTjnhEG5j,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CsHTVtGx3W6MXjj2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CJ5rPf8ifoApbly8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CB3G0KF9ne6QEM55,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDaYC8ZePjtefswZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGIjE8y6bJQXifHw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmNwJ4Wqeo0WDkti,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAFmC2bwyClCrfVT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNGEaq6Q9a1z3Gn8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CaTLq4ZcXIo0Z9FL,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMw6MAQvuv14ehxn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnMwfKQeor7D7V5v,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPY9OdUCti9r57Z9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1IcXeCFx0cp6oyh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6XbvZCsRUmvtIbt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CuMNKkFbd6WXMtVD,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVH6IZbjJlOwS9NJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5sGL9ZsYOTW9knF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C99FdUvKlC84852m,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CepocYNECX6dCIBw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CediVoTmK68UBC7h,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CtP9cm1jQ6sBH7si,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CCjws0fdNVjjfcgw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7HhUF1l7KmYCc0Q,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5jbJKejGuvOd00A,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXbSfWbSmSqg5i7m,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0GrRGrJjtaHfIL2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0eGzYxfod8UvAf7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CjIjof4gYN8Pc21U,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CpTm8NeFhlNGv3LS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CsHgMResXtBNrcaz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CRclCkK7sIz6GHqk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CjK4Lh36GZKxXEKU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHfeX7upxKQySTwO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNs15i0VSndoqdIq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXbiUfqXnGDyZQca,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDlJQSxILlvK8HtO,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBcWEZYf8fuxbphc,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CE2r8ImLGqubmauY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQcOjUkCy7jQXZno,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CpkRjjPDzHIPIHgp,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cm5P1nnLynrcjppS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CY280ZGsIaFDCgfy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CPLXbkpSNO7cKdIU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ct3lq1JfsU9GqE6q,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cq08BNfoIWth5GzA,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1lTkrZg3OriXNiU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnPpjbhCBXsNwUEa,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7Vvvh29mE175xXz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CtGsERxeS4pGtwKd,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5W2ZM7N4JceHWNo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+ClkX3a7AgYCg0xDR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAi1KFp8dzn41XcG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYgyg6xUL8sxD8Ot,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5leMG4hDk8864wI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Chj8pkD7yn34aGiB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5KF50aEnhmCKcwc,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTFUvo5S0sdEdZOz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrlxL0y7NB3q23yU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6o6md2uYeSiHtkM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CB9aWllAyBIoIWCt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CaFmSeBe7XriMjcV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTF7w0VaDGhD3Mqo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cf5Yd85aWjDPbWCy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9TESvHRkq8pCn5x,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQniP7JPIm0Mv4mN,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CKPvYUqMcM3zUyhJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHq6QSsunrNBLnME,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXQrjF6xWilWdEAq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CztOnmCjxR5vPgZR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CN9E8qtKzYMB6MZn,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cyo7dPNdJTPuleC8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CzYbphUCZCdQjhcd,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwVDjWMYwhq5AG9u,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CimbvKnWWqMQKJCt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwuHuB5YRPG1Njc7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMArlcxFgCTfEfvi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmaPFlpJ3g4qfrlQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6byOl915NAAe6TB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ca96CHvYNDjSrO2k,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1lc8LC9HYA8WFQy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5tpvfJ9jrgDiTot,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBF7HRfch8JUyehF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgxdwcLVFgBFTPUk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ce0k2bs8zcR7W6gq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5DgeLfwO0dBxJR2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CQC5JJeYppeXNt9M,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cmo82QdzJFYZQnsG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cc14cqLPdYWbZaHi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CT2PbkycDTzr7dDm,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CiGTVX8QVOIZVdWS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVGxRm877IhsVeEN,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cjej7iCLwslXygD9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNNE0LQJbH6sn876,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C2az2yjenAbb6Gem,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0OdJkUuQuvj1mns,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcWyJC7bTD4Dp6on,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwtRJdnnlRp7Sb0y,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CzZNLB7V3xrYuzMb,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CIqbITHpuJwvHH1O,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CjA6zDnX4iGUUwbI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CswB0AHyBdcWeItE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CfJ4rQrxct3qp326,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0MDVvreQjefDxQl,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ct73xfu6Qlb3CzwB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6tVDqIe45Wr8n0W,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C94xQKtZsl8jOH9Y,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnmlmBDTG5aKA1sx,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+ClanlNOyVqr46k4S,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CJRqLTXpT1FwfWCJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CUKyFqleWisANw1J,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ckf2K41b7SSgZgZk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAnRXjvTjramgorX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CpISz7fG9xg5TR2O,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cq6dJmVi1o8gZLMH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CJc1QRvib50kbTAH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CEQDwpxKmJyON1sI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CynruKWMAhzPhlqQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6WHKAsvRD2ELRf4,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CoU5sipvORcDbVcR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWW9W4oUOuwVYN8N,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C0x1zbirsl6DBvB6,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CtedLx93FrFF3OUC,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C2nGXafG85IK4dxu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C19W0VD15Wqk2mOu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CU3SouDoCpaBncaY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWTZOHR1EJiJj9Ic,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGkeqrdMhNqW1RSD,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwAAJXwq6RBxCjE5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9Ywr0p3F1lX8xg4,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3NANtfqwGh9lpUr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cjx3JTeLPbmfPpNM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDAr0gnXxd1MAJeg,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CM6lYtTtxbaOug5F,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeFMR0cbdWGo3s2U,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLJjnKqmjAqNT5X1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C14gaWewVboscgTF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CD24eQVPl67HVbIM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CxZEMsybgNdZSMDw,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8reSO3GSoHSGUiP,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4Cplf84YHbOaeFW,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6gQ8sw8WbYm6nrG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNaJS7y07ecZlwOe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CxCw3layHMnJnS1l,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CKZEg6jnEpmt6bM6,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Clq17fTXBQoP8y4T,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CbERybtxGIi6BmSX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CR7sECLDBiI9e8Vf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgJf14XZONKhVi6o,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMRCzb3ZVrUASzaZ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXhMhWPgbbydRITK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COBy3bUuZtxOWXSD,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBkDbgYTh9C0GvTt,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6UMxt78LQkduVf5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5TECPxhRh7NOHoT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CEBmDW6uHtkNSO9P,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C22zxneRwjhJSFAh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSbzswufsAJjjUO5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZk9byVUardu0Tap,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNefhxbZm6HeSJ3s,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CivoUnWCi5l1zvjs,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C92RZ4lyx3Cm50xa,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYSSUdGV3cDItuu2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1rdvYTH1yoYAoIV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgKvTLByqAQKUQFH,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMnaaKtKghp343Ly,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSIHsz8OpuIAt1yM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrCSW4SrKw50WvJ0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFkAzgNXczvAmNN8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CueWyJpOuePdeqyi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CvZGYQSWmcORyEMh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwFGxhGgQo52GkeJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTY1flFxO5ggA7Ms,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMEvy8hSOyAdNcxa,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHMeEqexZ6U2phJ5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CkohFhlGYUH6l4k8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COTqaOUcBkd3Zdxl,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CINyoYutDhaWu6IS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLqTChL2YurBNOxU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CORGYOqyl08fOrVE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CsZeaQtX33KQ9bfi,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9rT2JKqebI8uxrC,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CuuOQ62Ssj1tHIoC,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CRPntWTJemHA89SF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CThQAIfe0W5p0SaV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYFqQa5E0z3Q68KK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C2L8GmglVizirilh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9UL4b7SlpJBVllT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3VbYMXz2cuYpJv3,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CXpL2UHZLx7yYnHK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CI5WNCs1qXFlzTur,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C60H1oxlZ6YOe15q,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CbvmRBWCgTQ9oZxq,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CigKOZMWTfKuxAlE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CG2zJ0T5PNm5NP1F,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5kXJJgCCNn29g8L,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSWetsRCcWiUuImv,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYIma7AYkV2XisSr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cd8jDXoPW0TsMRez,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGDjhXHDEiPlQwQs,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGpxsdC3WoioLlIL,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSrzSM2my1TlPVZF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CIzEL8KPBZ09GJCT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CjdqethDtL8us9ig,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMqdriu19IWS71Kk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CHYbmWolBaOU8F3O,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CoI61Z4uDnhtTNw7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CdoLf1H3TVMPoIzz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CwS6xIqeXmdlHgIj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLUY7G9nH88gq9ic,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4AhmpdILCBkuotR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CokDgcAjsZSZuIyx,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cax2e997XyCD83Re,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CeEqC9qzkilpIi3E,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CTJRjFRfEpLYt4b8,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrPi1EX3sFZKpAux,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cjl7zPDFzYSXLEha,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9bApWaaVMRjukS7,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C7yMdQmFLghbgvM1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CUNbSLCVgbinzEe0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CONMTRsmfGYsYzPo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C4qxIHj3IzztmlhV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmuZL0DuaT73wE5P,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Crmf7fKrLrulNRHM,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C57phXhQxneNobYP,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1fCdlIKfUoARHdY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcRFFLi2OmL8WKdd,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGZbVdcPIMbFpS5E,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9WNmru5hwgBnZfE,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyeLrDF4EvoPeIJr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8WhGGD9SqHX9wNQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CRRpJJ7fw0yMhmci,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3jEEuZGVOgn7u1o,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSKUej2DrwvLCKq9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cr0Qkk14BgsnTTUp,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C20Ngm9lDFQcPKyA,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CP4LmxqPw8HDa7Wy,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CS6LSkC5wCLzwgBe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CJQDSRvEALRUCPeV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CnkJMG3O2PHMicu5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBCjOXwCR9NAtrWl,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CSjmekxnGxIArtMo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyB3QMnPA15K1pDf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcfDKlvXphSeh5xz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyWTRuXZEdz6HiGe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CcnFzCVMkq0h1n3A,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMWFkcRpk9GovAqS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CilmU4rK36dYDhv0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrCW0BnEwq97TdkS,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1MyMYFHe6MXuL69,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWdd1BaLEGyzhnfL,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9SGqDcAoIJgMg5c,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ch8SKg658WpNpcQr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CAeivXK8lnI47ac0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C31peYrDULWE5moG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8kdyN6WCwLvNlyI,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cqi6U9CRUccwvNib,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYrb0buRIFOJDm0S,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1Tr1uajdnlvqNrF,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CMfsn5LZIS3w2MM6,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CloSNEkiG54AusmB,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CzaBdFQdgXrPmT7p,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Co4G5bv588Ib824v,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CdecY1fquX2yavbJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+ClX1anhkJAfHYDIV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C5ogxamQJAmy5cnk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgMaMTpTQG8wvUzA,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CT5NQjYGyqgLnnH9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6502XE4Vg1F1qjK,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CS1aOpwX4BAdNXZ1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZs0brHBK3xuD9cY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CH1rVEYRzut0DEzG,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ct4b8EunFfJWeyPo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CR9ygoHjf6MUEVi2,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3g1YjP7hG7Vx8MN,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6vubHEcLamBQ3rX,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVGODl7yafROL5ET,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFinzCQt0SsrDKYe,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CUDs3vBRAGi372OL,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmbEDVE0HTnLhsYV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CZgEDou3CEc1tXZu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgOdZIcEGSgAA1fN,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgNywePoAPtx6atc,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CDnMldGjMn1QYGh1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CdT2sbBUOLm5Kn1A,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CkZ1girKNwm8UxyV,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLJ3INTDmQUS6Xpu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGKspOhv7LcQr8Vo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CyG8nqjCwAoVCLED,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CFdMUoSX7eOrIhE1,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CNd7ElXylpBFNnZz,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8F4HchtIcVggDHf,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cqi5hkebIZVbQHMC,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVESWH6sUM3UNKdr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CgKSZYRZ4ePBUv5f,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CqPhDsPR2Us0tqxp,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Ci2mthz3dWNgY3vJ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CrpZaUperkrvC9Nk,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CVIwtTs6UeemN2HQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CmwPpUR1l3IwwMPr,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CJ5nPruqQIqSukwQ,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBD7GiBquRiN2yn9,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C6Ixs0LubnTzJzFY,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+COR3OZIaM5nlWVGh,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Co4azsarUPdHTP4H,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CLmiwvhJCWQneFSU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C1olyNMRNQsciVsD,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CtUKsbdj73AYSWW5,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYdxgy9gw3dwl0d0,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CKn7ydsCv4EjYEbu,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CdK6gAm1Z2xEcG0V,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C8wqCGpsZtumvhPT,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CslgIGeGN0IRokhl,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cg45MGesQKrWuFnR,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+Cpf5Z1ZfEZffYaEj,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C9SyKnl1Axucscsb,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CCHRVjfHNlRFUeKo,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CYSvM91kfuWYWPbU,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+C3gd5vXadksgRyi6,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CWdvUmJcNuC8tq6E,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CT61zSMQk7sW3j2b,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CGPuz9tbGLDkMNyP,conn,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CBdfIqFUBr5pNvHJ,notice,True,Discovery,T1046,Network Service Scanning,INC-001,MEDIUM
+CY4cQPiQk3YN9fFC,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CGmxaDX9g81AsqhQ,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CnGac72QfL41SnlJ,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CvhwgAUB52zTD26F,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CeEvvHdiQ2aNhtMT,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C9obgHNUkONEnO41,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CEOpNI6jdwyLGaac,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Ctp9GYV1PLbaRP5b,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C1iD9z850KeNYDX9,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CQwca79isJS8jhuD,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Ckf0J7ELkpOH3Pkm,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CZkg5MsOYpSTuEc9,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C9ENQ522WJzrl9oA,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CySp6IHGiQlsMnQe,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C40FaRAvnQtiaAE2,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C4hzkJHT3x13NPGw,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C2ZmJ518y2BtU5x1,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CyQwG21NycSxOBLU,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C17RnY8h6H8L7QGa,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CtTlfXjPrA5hsupW,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CEpUT0sSTZYSHa6p,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C3mShARajocbNd3x,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CKFfnUyupNMBPd0E,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CZnMrePoAuvGaK7g,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CDP0cxp9k63lsfzh,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C3udQPnvgmRERQTh,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CIOrrDZhZMa4kr1v,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CXAVu07ZuhlNNbBU,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CqZKcHmBYiBnIcDX,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CNUvXuzPFBh9Vowo,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cu6MBJHpiNrvKluH,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cy7GBTp7YsEqmGv0,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+ClH8wVaWfV0yG7nz,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Crbt7QyhdbtQ0zF2,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CPclXB0LNxV2rRA6,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CFsevqoexFNqSkdg,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CauUrQPHLHhvLNes,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C8gRGMOLAhR8irH1,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Ce2jdbLD6dyYEnDJ,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CiS9HvlxNgbb19Sm,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Clt6MNoJKEAbkSOr,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Crcq5wmo5aho4zEK,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CTujRHqr6feECaTP,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CF7zj69pQCudo4Lk,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CneFVUp1UrR6yicT,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CU8Zf9ohZLWumvMi,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C5brH8lOJiiF94cH,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CzesfQz8PiX5f21R,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CwZ5fyRSk9eJhVih,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CcTLrjOwCuryXpy8,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CeCfk12bgcsZoJd8,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CUqo001XTsv2CEn5,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C9uaGn2br4CxSXJg,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CjxKE1mO4IcPPAx3,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CqJbVknaP0MXdOjj,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C9S8oRjquDle4Rxl,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CVnmqsozm4oTbjtF,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CSuKIh8g4zPzdyuV,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CH7I71s87xWxAhcp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cpky6GOB2i4NDz4S,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CZI6SeG3Icpu6ZuJ,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CZGeZ6CWb61Gqh8W,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CYLH0cpnlBwPHjEv,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CMN1UJ3A1IIPKoBA,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CwOUKDtgudwfGf6C,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cw1gc7DdYqe4EFlE,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CRnhU9gclGr0ovsN,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CbOVcZFapXJ5EzFF,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CtyikiUHVpu1s8lV,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CjNoNG0Wvjy08ymn,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CB5zQLrTVA1jYInB,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CuNaVWswjFDJmpQp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CebQuHaRqepCYlAS,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CNIPUAuKXrfzxE1C,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CB51jjrZHBUxmz5F,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C0PkgYTVUKfHf4Vt,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CyyOJMlvoKveuvb5,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cinm1mJEbSRDfTcD,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CzE11mfcix3byoTd,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CJDG3VsfKPbbgJXR,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CZUlwoEFqRso42Uk,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CIV7rYk6TXxypztq,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CgoaWWLN6eOIE0Gv,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cz2CUvIXKzvyKbZp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CObRubhTydzW69cR,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CXg7yxIPn2iG00Rv,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CQ4Jb6NbVBDfO9XB,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C50oxIRzrIrbAEPz,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CitgGRSCaxcG4kBf,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CPIamOZpF8Egf9iY,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cdn8PBwVtmvtUChy,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CKwcrnyDwcSCMC5f,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C9hPuLWw1UHW3u3X,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C8ee5gxtElyhTEoT,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+ClaqVC1V9R86EnWx,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cq7IlwCEwWXjlq6X,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CvjgYoPHteXiQQb9,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CR4eH0c3bFq0TVEh,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C30s5nxfHMIxBiWx,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CilFT9sgvzE8nbqV,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C2wnL7a4DHJKUrV6,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C30PniHShfK6Josl,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C0izBCnjovZnemR7,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CdxqSEDbeMlTst18,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CIWiTcQPGRXmP1JU,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CjTvefeTB6f7NVDe,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C2odh0a2tvWYjMiE,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CfvR9qH8YxV6uMff,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CCIUdclfUmK9tSUz,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+ChrSyWp8kxsqBd7w,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CwjskKmm0JqB6GBT,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CJqZw52tDIMUpgTK,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C4VVvsnqlLPiN8SR,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CMrTV5xQHpX8y7xS,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CRsVbPdMh5rImkPp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CgnDZsGvAi5Z52dM,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C7To4Fjhs64K2K59,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CYe6752AjG8R9he6,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C0dLGKcPLtxjuK13,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CzfFpLIUPQOu7SsA,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CoqDHTZf3rTH4SmN,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CIJulZidhpNPu2Fb,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CrEiDhfjJUgHMkFf,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CycfcDcysYyujCVD,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C95E5BZvv8oa9X14,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CXqphoVLhgtNABSp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+ChgzPVR6sGyZv2AM,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CGClrDtYON1DfRyt,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CTlpTSIoNSD624ma,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Ce86pwTZJXud0Srx,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C4i8iIPMo50FsLQp,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cl2Lvsid1U7A67H9,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CdPlM4iwXhWQfeG8,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Cd04WZiNJQ5jZJUX,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CzeoqPy7neKxKse4,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+ChnDC06pvZ0OrAfX,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CmpmdeAiAgR8Bypx,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C4GFJLgyQYXZj9Oq,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C0o1vFXiDAKeawj1,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CFgCN13dCE53iC5T,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C7kusYEKOzY3UuI9,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+Csf8DbzVv7YvBQ9e,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CW6aqoFmxsFJsntT,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CGATWQILbiZBVFlU,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CXSYF348jKXISeDa,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CaeEPPmkMGS6UmxU,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CUy18IT6MT78Srej,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CPXyYHikhqi7crbS,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CqyxZenPoswE9dYf,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+C5qhxW3hnFvoWoC8,ssh,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CtXyvmjAZBSZlPPO,notice,True,Credential Access,T1110,Brute Force,INC-002,HIGH
+CqYu7aAQfgjjbYvk,ssh,True,Defense Evasion / Persistence,T1078,Valid Accounts,INC-003,CRITICAL
+CfVBGZ7H6ITcMddb,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CQqoupLIsE16AJRo,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CrTSyH0opK9PKJi7,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C5XfR858nbgLQ78c,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+COZLnaBmMkYrMuyD,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CWkA5K8siUUsue8c,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CG2LUcQ1gnllkV0m,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cd3KSR7FxNcAZmtr,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CyrSmFIHSLqfZIXL,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CXqlAvEXadtXRLvL,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cnqo9ieITbDWAIy7,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cd999HGbmvrAqiNG,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CfeqZ0eFBvSRhKcu,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CWH4irYKVFaIPAHB,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CviHHwzWzCsh9Gzu,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CnW4NOxyFp8sbter,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CS9bVyb9wOykVsnK,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CcyLUIUGKT5AqSju,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CIMMDVRhUrRQ19qF,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C1RDdalKNJ22Bz8v,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C7w491H1PszvpejQ,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CW1H4i604CXX5JzC,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CZcn2FfR6W6UAvtt,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C9aTiQfGknwMAOpD,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CcpWDhNaNQzUjjeV,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C7Q2lOHqQxnIcUYz,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CqDGwcH1bA7MqIoJ,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cefg9KUuprKyGE92,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C5QoPX4KYSrOorAd,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cfja0QF9XSsmUQF6,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CIOqAry9aIEXtGT2,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cwfk8sfCuJIhnLyB,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CIvuI9IgAobsmJZq,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CbzWGq4YjMWi5Rq4,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C1FGukX7TIRFillw,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cys7Pn6qkXicHmTo,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cq0oSgfuSD37eGek,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cqab2wNwvqSRXXGe,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cg895I1jWqv7vBEQ,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CY4K3Urf47w2veoc,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CCDwfmfZrFhmRTfM,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CVBJ0uqzlQLMlVsl,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CyhYnzqErt0DFacl,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CSwtT6N48kVeRJvI,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CTttHrrK7gwsKHwQ,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CMS3lL7hFKurUhLy,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C2vByQDsjEcWejWP,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CT572q4MUc8Jj5ah,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CGjsOfC1PdXJ51i4,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CjobvIFqkysA9sZL,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CtaTZsQEXf3Lx87E,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cjg56N5JjiJjmBmk,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CcR0UiAMiSmckevM,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CqpGfexXBWcEf6Oa,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C3vPAZOV026Ao0tG,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CSk3f6g2unh9C1TX,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CgOeD9sF53grX8FF,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+ClCXPZC0IcAFOeJq,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CIyEja7OQTxrtTQE,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CTtFSTJrxQw9WV7U,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CMwkJKcZh7MTQHJq,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C73ulMABFAo0NHkn,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CzrCzUFPWfpQ9BZc,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CoFy2mS3S13nWhis,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CuPcxIAz8IzXnnkQ,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CKnf1P10tNH6lnVl,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CyBD3bH4zUCcKjyY,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+ClPcgTg7Tvco7wfW,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CBqKNLR2CmPSZiDR,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C5GfwJQcITCWncTQ,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CIM2gnxx9wWhe4fY,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CJCdC8TQMXupvvi0,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CLTN3wD9gv98GoQy,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CSdQmDGdzu2lrXQO,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C4D9N0xV00Kkxr4B,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CBgj3ZgnbQ7Jlucz,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cr6iiL92eTeFONgA,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C0KpoGvhjSPC6LEO,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C4MIs40UBk4w017X,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CEKPxK3Oz4ludaaK,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C6YGSIJ6x7oK8r5w,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C4DWLxiOiP3GjHOl,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CNkKTqHt66Y97Cl5,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+Cov0766eL8Hom567,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C7Nj6IuO8K2Frn2b,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CRZsBxcDn47fkZew,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CQPEPGAXt82eXhGd,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+ChNQCIxHdufPCMxl,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C1oqKE0ST7EKXth3,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CLTUbMP1f2ZDoybQ,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CFkmdB6K3JGMLrst,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+C17ubZONuFSsqu2w,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CQRODj0JWaSplMBK,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CAsvjx7wLz2wOX1a,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CSF0TYeoFhL2WbQc,dns,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+CWWkri3Jj05BOyeZ,conn,True,Command & Control,T1071.004,Application Layer Protocol: DNS,INC-004,CRITICAL
+COQDupFVh8ki0yZh,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+C1d2dE3sf3xqmHuK,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+C98yHa9a9mzP44EY,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CYURc2wmgaZJkv65,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CiGRhVZXelCRIlrC,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+C3UOu53BySRerG1I,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+C8bzQZoLNztv1yfJ,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CTfI02BLzzPc4rQz,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CfnHBXkL1kVK3uqR,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CXKj71oqQZBwvA4o,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+ClAPxS7naXVPcpzY,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CGfp0XolSGD9n1Qs,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+C3SJv3xxloqso9QZ,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CYCrjLtNhw4pf002,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CLGHQyvLqUFWuTwU,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CQS0d1k6E3f1XSD0,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CIMZj4cTswenKnAQ,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CvKvevFmnZ7XCMXA,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CTzLpmPqVHXkKzSS,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CtkU39V3WL64ZOtI,conn,True,Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,INC-005,HIGH
+CtkKWoC2PhD9poBq,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CZXhdJrnSppQlIzG,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CsHHGMMQgMrSCeM5,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CUAp4zpJFfsGPO9S,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CcGKCSxTtFvC0pKW,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+Cbm2FyLY7QX0xoxH,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CrD6JZkxqLXWBqz8,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CI5HZCQTrqvjj8pU,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+CgrFpPVpX0i9DnJ0,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL
+C01EeO8DNnZOcxb1,http,True,Exfiltration,T1048,Exfiltration Over Alternative Protocol,INC-006,CRITICAL

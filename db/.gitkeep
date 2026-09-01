@@ -1,0 +1,3 @@
+# db directory — auto-created at runtime
+# SQLite databases are created here by running:
+#   python scripts/normalize_zeek.py

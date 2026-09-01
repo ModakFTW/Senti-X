@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+
+# SENTINEL-X Data & DB
+# We do not push data; the integrating AI or users should run the generation scripts.
+data/raw/*.json
+data/clean/*.jsonl
+db/*.db
+db/*.sqlite
+*.db
+*.sqlite3
+
+# Eval Reports (optional, but usually good to ignore local runs)
+eval_report.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
